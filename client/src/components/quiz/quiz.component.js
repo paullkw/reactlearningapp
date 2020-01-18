@@ -37,7 +37,7 @@ export default class Quiz extends Component{
 
         const questions =  this.state.questions;
 
-        for(var i= 0; i < questions.length; i++)
+        for(let i= 0; i < questions.length; i++)
         {
             if (questions[i]._id == questionid){
 
@@ -67,7 +67,7 @@ export default class Quiz extends Component{
             message = '不正確，正確答案是 ︰' +"<br />" + AnswersText.map(function(item){ return item + "<br />"}).join(' ')
         }
 
-        for(var i= 0; i < questions.length; i++)
+        for(let i= 0; i < questions.length; i++)
         {
             if (questions[i]._id == questionid){
                 questions[i].message = message

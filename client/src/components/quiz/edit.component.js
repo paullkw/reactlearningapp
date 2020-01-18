@@ -1,7 +1,6 @@
 import React, {Component} from 'react'
 import ButtonToolbar from 'react-bootstrap/ButtonToolbar'
 import Button from 'react-bootstrap/Button'
-import axios from 'axios'
 import api from '../../api'
 
 export default class Edit extends Component{
